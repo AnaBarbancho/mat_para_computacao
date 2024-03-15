@@ -1,0 +1,12 @@
+{
+  "name": "aula",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ex1": "ts-node ./src/ex1.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
