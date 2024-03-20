@@ -1,25 +1,10 @@
-//defina uma variavel que tem uma anotação explicita de um tipo numerico
+enum Familia {
+    meu_Pai = "Marco",
+    minha_Mae = "Marta",
+    Irma_Mais_Velha = "Natalia",
+    Irmao_Mais_Velho = "Guilherme",
+    Irmao_Mais_Novo = "Gustavo"
+}
 
-let x:number = 0;
-console.log(x);
-
-//defina uma variavel que tem uma anotação explicita de um tipo string
-let y:string = "Oi";
-console.log(y);
-
-//uma variavel que não tenha anotação explicita de tipo mas que receba um valor logico
-let a = true;
-console.log(a);
-
-//uma variavel que seja um JSON contento prioridades de tipo numerico e de tipo string
-let vr: {numero:number,texto:string};
-vr = {
-    numero : 17,
-    texto : "Olá mundo"
-};
-console.log(vr);
-
-
-//um array numerico com anotação explicito de tipo
-let b:number[] = [1,2,3,4];
-console.log(b);
+console.log(`Meu pai e minha mãe se chamam: ${Familia.meu_Pai}, ${Familia.minha_Mae}`);
+console.log(`Meus irmãos são: ${Familia.Irma_Mais_Velha}, ${Familia.Irmao_Mais_Velho},${Familia.Irmao_Mais_Novo}`);
